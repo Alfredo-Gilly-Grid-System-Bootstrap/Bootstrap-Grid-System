@@ -1,15 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Anton&display=swap');
+*{margin:0;padding:0}
+
 h1,h2,h3,h5{
     font-family: 'Anton', sans-serif;
 
 }
 
 h1{
-    font-size: 64px;
+    font-size: 48px;
 }
 
 h2{
-    font-size: 48px;
+    font-size: 32px;
 }
 
 h5{
@@ -19,6 +21,7 @@ h5{
 body{
     font-family: 'Abel', sans-serif;
     background-color: #f0f0f0;
+    box-sizing: border-box;
 }
 
 
@@ -54,6 +57,10 @@ body{
 
 section div>h5{
     font-size: 12px;
+}
+
+#circleContainer {
+    width: 80%;
 }
 
 
