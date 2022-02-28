@@ -1,3 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Anton&display=swap');
+h1,h2,h3,h5{
+    font-family: 'Anton', sans-serif;
+
+}
+
+h1{
+    font-size: 64px;
+}
+
+h2{
+    font-size: 48px;
+}
+
+h5{
+    font-size: 28px;
+}
+
+body{
+    font-family: 'Abel', sans-serif;
+    background-color: #f0f0f0;
+}
+
+.circles{
+    width: 105px;
+    height: 105px;
+    /*background-color: #e6563b;*/
+    border: 5px solid white;
+
+}
+
+#circle1{
+    background-color: #e6563b;
+}
+
+#circle2{
+    background-color: #EB9D3A ;
+}
+
+#circle3{
+    background-color: #7cb06c;
+}
+
+#circle4{
+    background-color: #00aba9;
+}
+
+
 /* Styles associated with NAV */
 nav {
     z-index: 2;
