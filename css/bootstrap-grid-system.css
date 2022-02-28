@@ -21,6 +21,7 @@ body{
     background-color: #f0f0f0;
 }
 
+
 .circles{
     width: 105px;
     height: 105px;
@@ -29,20 +30,30 @@ body{
 
 }
 
-#circle1{
+#circle1,#littleCircle1 {
     background-color: #e6563b;
 }
 
-#circle2{
+#circle2,#littleCircle2 {
     background-color: #EB9D3A ;
 }
 
-#circle3{
+#circle3,#littleCircle3  {
     background-color: #7cb06c;
 }
 
-#circle4{
+#circle4,#littleCircle4  {
     background-color: #00aba9;
+}
+
+.littleCircle{
+    width: 18px;
+    height: 18px;
+
+}
+
+section div>h5{
+    font-size: 12px;
 }
 
 
