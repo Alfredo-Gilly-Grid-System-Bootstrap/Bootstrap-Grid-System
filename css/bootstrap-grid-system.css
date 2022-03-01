@@ -34,9 +34,7 @@ body{
 
 
 /* Litlle Circles secton*/
-main {
 
-}
 #containerProduct1 img, #containerProduct2 img, #containerProduct3 img, #containerProduct4 img {
     width: 100%;
     height: auto;
@@ -44,15 +42,6 @@ main {
 .greenAppleComputer{
     border: 8px solid #e6e6e6;
     border-radius: 12px;
-}
-
-
-
-@media only screen and (min-width: 900px) {
-    body {
-        background-color: lightblue;
-    }
-
 }
 
  main #containerProduct2, main #containerProduct3, #containerProduct4{
@@ -78,7 +67,6 @@ main {
 .littleCircle{
     width: 18px;
     height: 18px;
-
 }
 
 section div>h5{
