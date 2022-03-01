@@ -28,24 +28,50 @@ body{
 .circles{
     width: 105px;
     height: 105px;
-    /*background-color: #e6563b;*/
     border: 5px solid white;
+    margin: .3em;
+}
+
+
+/* Litlle Circles secton*/
+main {
+
+}
+#containerProduct1 img, #containerProduct2 img, #containerProduct3 img, #containerProduct4 img {
+    width: 100%;
+    height: auto;
+}
+.greenAppleComputer{
+    border: 8px solid #e6e6e6;
+    border-radius: 12px;
+}
+
+
+
+@media only screen and (min-width: 900px) {
+    body {
+        background-color: lightblue;
+    }
 
 }
 
-#circle1,#littleCircle1 {
+ main #containerProduct2, main #containerProduct3, #containerProduct4{
+     display: none;
+ }
+
+#circle1,.littleCircle1 {
     background-color: #e6563b;
 }
 
-#circle2,#littleCircle2 {
+#circle2,.littleCircle2 {
     background-color: #EB9D3A ;
 }
 
-#circle3,#littleCircle3  {
+#circle3,.littleCircle3  {
     background-color: #7cb06c;
 }
 
-#circle4,#littleCircle4  {
+#circle4,.littleCircle4  {
     background-color: #00aba9;
 }
 
@@ -163,7 +189,6 @@ nav > ul {
     z-index: 1;
     position: absolute;
     opacity: 1;
-
 }
 
 
@@ -177,3 +202,4 @@ nav > ul {
     font-size: 50px;
     text-align: center;
     display: block;
+}
